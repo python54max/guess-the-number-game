@@ -19,7 +19,7 @@
          const secretNumber = Math.floor(Math.random() * 100) + 1;
          let attempts = 0; 
          function checkGuess() {
-            const guess = parseInt(document.getElementById('guess').value);
+            const guess = parseInt(document.getElementById('guess'). value);
             attempts++;
             document.getElementById('attempts').textContent = `Attempts: $
 {attempts}`; 
@@ -35,4 +35,5 @@ The number was ${secretNumber}. You guessed it in ${attempts} attempts!`;
          }   
      </script>
 </body>
+
 </html> 
